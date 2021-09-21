@@ -35,13 +35,13 @@ class Deck():
     self.discards.extend(cards)
 
 class Person():
-  """This is the base class for partisipants of BlackJack dealer and players and should not be used directly"""
+  """This is the base class for participants of BlackJack dealer and players and should not be used directly"""
   def __init__(self):
     self.cards = []
     self.aces = 0
     
   def __str__(self):
-    return "This is the base class for partisipants of BlackJack"
+    return "This is the base class for participants of BlackJack"
 
   def deal_cards(self,deck,amount):
     for n in range(amount):
@@ -81,7 +81,7 @@ class Player(Person):
   
   Attributes:
   name = string with player name
-  money = float of plaer funds for the game"""
+  money = float of player funds for the game"""
 
   def __init__(self,name,money=10.0):
     self.name = name
