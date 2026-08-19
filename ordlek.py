@@ -1,4 +1,3 @@
-from operator import itemgetter
 from random import choice
 
 saol = []
@@ -45,4 +44,5 @@ def playLoop(saol):
                         tempWords.remove(word)
             words = tempWords[:]
 
-playLoop(saol)
+if __name__ == "__main__":
+    playLoop(saol)

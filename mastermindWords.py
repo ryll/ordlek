@@ -1,4 +1,3 @@
-from operator import itemgetter
 from random import choice
 
 saol = []
@@ -49,4 +48,5 @@ def playLoop(saol):
         for guess,result in guessed:
             print(guess,result)
 
-playLoop(saol)
+if __name__ == "__main__":
+    playLoop(saol)
