@@ -1,4 +1,4 @@
-# ordfusk
+# ordlek
 
 A Swedish word game and a solver that plays it, written in **February–March 2020**.
 
